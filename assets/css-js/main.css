@@ -196,29 +196,11 @@ header .container > .flex{justify-content:space-between;align-items:center;heigh
 p.line{position:relative;padding-bottom:4px;margin-top: 30px;margin-bottom:-7px;}
 p.line:after{content:'';position:absolute;left:50%;transform:translate(-50%,0);bottom:0;width:400px;height:1px;background:rgba(255, 150, 1, 1);}
 
-.info-bar{padding: 5px 0;position: fixed;width: 100%;bottom: 0;z-index: 2;min-height: 10vh;display:flex;align-items:center;}
+.info-bar{padding: 5px 0;position: fixed;width: 100%;bottom: 0;z-index: 2147483633;min-height: 10vh;display:flex;align-items:center;}
 .info-bar p{max-width:1040px;margin:0 auto;line-height: 1.3;}
 .ref{position:absolute;right:40px;bottom: -46px;}
 
-/* footer */
-footer{background: rgba(241, 241, 241, 1);padding: 80px 0 130px;}
-footer .container{max-width:none;}
-footer .small-text{font-weight:400;}
-footer b{font-weight:600;}
-.synoptis-logo{margin-bottom:40px;}
-footer .col-l .col-l{padding-right:36px;}
-footer .socials{margin-top:-73px;margin-bottom:20px;}
-.socials a{margin-right:12px;border-radius: 100%;overflow: hidden;transition:0.3s;}
-.socials a:hover{filter:hue-rotate(-7deg)}
-.footer-top{justify-content:space-between;}
-.footer-top > .col-r{width:50%;}
-.footer-top .col{margin-bottom:30px;}
-.contact-box{padding: 43px 10px 43px 73px;}
-.mail{margin-top: 24px;}
-.mail a{font-size:24px;margin-left:22px;}
-.footer-btm{border-top:1px solid black;padding-top:8px;}
-.footer-btm .flex{justify-content:space-between;}
-.footer-btm a{border-bottom:1px solid;}
+/* footer — see styles.css */
 
 @media (max-width:1300px){
     .menu{margin-right:-20px;}
@@ -226,7 +208,6 @@ footer .socials{margin-top:-73px;margin-bottom:20px;}
     .section-2 .image-cta{width:100%;padding-right: 20px;}
     .section-8 .col-l{min-width:auto;}
     .faq{min-width:50%;width: 100%;max-width: none;}
-    .contact-box *{font-size:20px !important;}
 }
 
 /* COMPACT VERSION */
@@ -331,17 +312,6 @@ footer .socials{margin-top:-73px;margin-bottom:20px;}
 
     .section-8 .cols{flex-direction:column;}
 
-    footer{padding:50px 0 180px;}
-    footer .socials{margin:0 0 30px;}
-    .footer-top .cols{flex-direction:column;}
-    .footer-btm .flex{align-items:center;flex-direction:column-reverse}
-    .footer-btm a{margin-bottom:10px;}
-    .contact-box *{font-size:16px !important;}
-    .mail{margin-top:15px;}
-    .footer-top{flex-direction: column-reverse !important;}
-    .footer-top > .col-r{width:100%;}
-    .synoptis-logo{width:80%;max-width:260px;}
-    .contact-box img{width:30px;}
     .ref{right:20px;}
 }
 

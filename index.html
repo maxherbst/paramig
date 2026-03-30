@@ -17,7 +17,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
 	<link rel="shortcut icon" href="assets/img/favicon/favicon.ico" />
-	<link rel="stylesheet" href="assets/css-js/main.css">
+	<link rel="stylesheet" href="assets/css-js/styles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -620,63 +620,54 @@
 
 	<footer>
 
-		<div class="container">
+		<div class="container" style="position:relative;">
 
-			<a target="_blank" href="https://synoptispharma.pl/"><img width="200" src="assets/img/synoptis.webp" alt="Logo Synoptis" class="synoptis-logo" /></a>
-
-			<div class="footer-top cols flex">
-				<div class="col col-l">
-
-					<div class="cols flex">
-						<div class="col col-l">
-							<p class="small-text">Synoptis Pharma Sp. z&nbsp;o.o.<br/>z&nbsp;siedzibą w&nbsp;Warszawie<br/>ul. Krakowiaków 65&nbsp;<br/>02-255 Warszawa</p>
-						</div>
-						<div class="col col-l">
-							<p class="small-text">Spółka wpisana do&nbsp;Rejestru Przedsiębiorców<br/>przez Sąd Rejonowy dla m.&nbsp;st. Warszawy<br/>w&nbsp;Warszawie, XIII Wydział Gospodarczy<br/>KRS: 0000225105, REGON: 278352048,<br/>NIP: 6462663442, kapitał zakładowy<br/>18&nbsp;000 000,00 zł&nbsp;</p>
-						</div>
-					</div>
-
-					<p class="small-text">
-						<b>Inspektor Ochrony Danych</b><br/>
-						<span class="thin">Natalia Benderska</span><br/>
-						<b>Zastępca Inspektora Ochrony Danych</b><br/>
-						<span class="thin">Dorota Neubauer<br/>
-						e-mail: <a href="mailto:iod@neuca.pl">iod@neuca.pl</a></span>
-					</p>
-
+			<!-- Row 1: Logo | Company info | Contact -->
+			<div class="footer-row footer-row-top">
+				<div class="footer-col">
+					<a target="_blank" href="https://synoptispharma.pl/" class="footer-logo"><img src="assets/img/synoptis.svg" alt="Logo Synoptis" /></a>
+					<p class="small-text">Synoptis Pharma Sp. z&nbsp;o.o. ul.&nbsp;Krakowiaków 65 z&nbsp;siedzibą w&nbsp;Warszawie</p>
 				</div>
-
-				<div class="col col-r">
-
-					<div class="socials flex">
-						<a target="_blank" href="https://www.facebook.com/ParamigFast"><img width="59" src="assets/img/fb.svg" alt="Facebook" /></a>
-						<a target="_blank" href="https://www.instagram.com/paramig_fast/"><img width="59" src="assets/img/insta.svg" alt="Instagram" /></a>
-					</div>
-
-					<div class="contact-box blue-bg">
-						<p class="larger-paragraph white thin">Skontaktuj się z nami</p>
-						<div class="mail">
-							<img width="43" src="assets/img/envelope.webp" alt="Koperta" />
-							<a class="white" href="mailto:office@synoptispharma.com">office@synoptispharma.com</a>
-						</div>
-					</div>
-
+				<div class="footer-col">
+					<p class="small-text">Spółka wpisana do&nbsp;Rejestru Przedsiębiorców przez Sąd Rejonowy dla&nbsp;m.&nbsp;st.&nbsp;Warszawy w&nbsp;Warszawie, XIII&nbsp;Wydział Gospodarczy<br/>KRS: 0000225105, REGON: 278352048, NIP: 6462663442,<br/>kapitał zakładowy 18&nbsp;000&nbsp;000,00&nbsp;zł</p>
 				</div>
-
+				<div class="footer-col">
+					<p class="small-text">Kontakt<br/>
+					Infolinia: <a href="tel:+48223216240" class="footer-contact-link">22 32 16 240</a><br/>
+					e-mail: <a href="mailto:office@synoptispharma.com" class="footer-contact-link">office@synoptispharma.com</a></p>
+				</div>
 			</div>
 
-			<div class="footer-btm">
-
-				<div class="flex">
-					<span class="small-text">Copyright © Synoptis Pharma Sp. z o.o.</span>
-					<a class="small-text" target="_blank" href="assets/pdf/polityka_prywatnosci_paramig.pdf">Polityka prywatności</a>
+			<!-- Row 2: Buttons + IOD | Zastepca IOD -->
+			<div class="footer-row footer-row-btm">
+				<div class="footer-col">
+					<div class="footer-btm-left">
+						<div class="footer-buttons">
+							<a href="#" class="footer-btn">Dane osobowe</a>
+							<a href="https://paramig.pl/assets/pdf/polityka_prywatnosci_paramig.pdf" target="_blank" class="footer-btn">Polityka Prywatności</a>
+							<a href="#" class="footer-btn">Standardy ochrony małoletnich</a>
+						</div>
+						<div class="footer-iod">
+							<p><b>Inspektor Ochrony Danych</b><br/>Malwina Nowik</p>
+							<p style="margin-top:10px;">e-mail:<br/><a href="mailto:iod@neuca.pl">iod@neuca.pl</a></p>
+						</div>
+					</div>
 				</div>
-
+				<div class="footer-col footer-zastepca">
+					<p><b>Zastępca Inspektora Ochrony Danych</b><br/>Dorota Neubauer</p>
+				</div>
 			</div>
 
+	
 		</div>
 
+		<!-- Copyright -->
+		<div class="footer-copyright">Copyright &copy; Synoptis Pharma Sp. z o.o.</div>
+
 	</footer>
+
+	<!-- Privacy icon (covers Cookiebot widget) -->
+	<div class="privacy-icon"><img src="assets/img/privacy.png" alt="" /></div>
 
 	<script type="text/javascript" src="assets/css-js/jquery-3.7.1.min.js"></script>
 	<script type="text/javascript" src="assets/css-js/scripts.js"></script>
