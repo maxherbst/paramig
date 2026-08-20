@@ -158,6 +158,7 @@ header .container > .flex{justify-content:space-between;align-items:center;heigh
 
 .section-5{background: linear-gradient(257.82deg, #40B4E9 7.34%, #0A2EA2 100%);padding: 70px 0;}
 .section-5 .section-h p{margin-bottom:0;}
+.section-5 .block .text{margin-top:1rem;}
 .block{max-width:400px;padding: 0 10px;margin-bottom:20px;text-align: left;}
 .block img{filter: drop-shadow(0px 4px 26px rgba(0, 0, 0, 0.15));border-radius:22px;}
 .block-inner{justify-content:space-between;max-width: 1090px;width: 100%;}
@@ -173,7 +174,7 @@ header .container > .flex{justify-content:space-between;align-items:center;heigh
 .section-6 .col-r{position: relative;margin-bottom: -214px;}
 .section-6 .smaller-text{left: 34px;bottom: initial;top: 50%;}
 
-.paramig-bg{background:50% / contain url(../img/paramig-section.webp) no-repeat;height:30vw;}
+.paramig-bg{background:50% / contain url(../img/background.webp) no-repeat;height:30vw;}
 .section-7 .container{height:100%;}
 .section-7 .col{position:absolute;left:53%;width:500px;flex-direction:column;align-items:flex-start;justify-content:center;height:100%;top:0;}
 .section-7 .btn{margin-top:24px;}
