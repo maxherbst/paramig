@@ -1,0 +1,235 @@
+defaultowy kolor tekstu (p)
+color: #042A78;
+
+
+header bg color:
+
+header:before, header:after
+background: #2A2B74;
+
+
+
+elementy menu
+
+font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -4%;
+
+
+
+Wspólny język w walce:
+font-family: Montserrat;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+
+
+z bólem i gorączką!:
+font-family: Montserrat;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 56px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+pod spodem pseudoelement linia
+background: linear-gradient(90deg, #D3540B 0%, #B71F00 100%);
+height 22px
+radius po prawej zaokraglone
+po lewej idzie poza ekran (do konca)
+
+bg pierwsej sekcji
+background: linear-gradient(154deg, #972001 36.12%, #DE6910 57.34%, #FED882 81.39%);
+
+
+Paramig Fast rozpuszcza się już na języku:
+font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+
+2 sekcja
+
+W roli głównej...
+font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+color: #042A78;
+
+
+Paramig Fast!:
+
+background: linear-gradient(89.73deg, #D4560B 37.48%, #B72200 99.76%);
+
+
+font-family: Montserrat;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 44px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+
+
+Miej przy sobie Paramig Fast w wygodnej saszetce i zażyj bez popijania gdy pojawi się ból.
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+
+
+3 sekcja
+Rozpuszcza się już na języku
+font-family: Montserrat;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+Cytrynowy smak i szybkość działania. Paramig Fast to produkt leczniczy wydawany bez przepisu lekarza.
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+
+*Claude Dubray, Philippe Maincent & Jean Yves Milon (2021): From the pharmaceutical to the clinical: the case for effervescent paracetamol in pain management. A narrative review, Current Medical Research and Opinion, DOI: 10.1080/03007995.2021.1902297; Charakterystyka Produktu Leczniczego PARAMIG Fast 04.07.2025:
+
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+color: #8295BC;
+
+
+sekcja 4
+
+background: linear-gradient(54deg, #0A0F38 5.5%, #0F3780 22.18%, #0485C3 55.33%, #40B4E9 71.16%);
+
+A dla najmłodszych:
+font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+Paramig Fast Junior:
+font-family: Montserrat;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 44px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+
+Miej go przy sobie – gdziekolwiek jesteś z rodziną. Szybkość to jego drugie imię. 
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+
+tutaj cta znajdz lek troche ma inne bg
+background: linear-gradient(86.36deg, #F58426 54.27%, #F1D1C7 95.45%);
+
+i cta drugie border
+border: 3px solid;
+
+border-image-source: linear-gradient(90deg, #F1D1C7 0%, #FF9601 100%);
+
+
+
+na ból i gorączkę
+
+font-family: Montserrat;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+color: #F1D1C7;
+
+
+te kuleczki maja 
+27px x 27px
+#ED890B
+linia prowadzaca pod nia
+#F1D1C7
+2px height
+
+kolejna sekcja
+Z Paramig Fast i Paramig Fast Junior
+font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+
+
+saszetkę masz zawsze pod ręką!
+background: linear-gradient(89.73deg, #D4560B 37.48%, #B72200 99.76%);
+
+font-family: Montserrat;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 44px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+
+
+Gdy nie masz pod ręką nic do popicia, lek rozpuszcza się już na języku.
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+
+ogarnij system otwierania faq
+
