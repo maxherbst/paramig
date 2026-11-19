@@ -33,7 +33,6 @@
         <ul class="menu">
           <li><a href="#paramig-fast">Paramig Fast</a></li>
           <li><a href="#paramig-fast-junior">Paramig Fast Junior</a></li>
-          <li><a href="#paramig-fast-extra">Paramig Fast Extra</a></li>
         </ul>
         <div class="buy-menu">
         <button class="btn buy-toggle" type="button" aria-expanded="false" aria-controls="buy-header">Znajdź lek<span class="chevron" aria-hidden="true"></span></button>
@@ -53,21 +52,20 @@
           <h1 id="hero-title">Wspólny język w walce <span>z bólem i gorączką!</span></h1>
           <p>Paramig Fast rozpuszcza się już na języku</p>
         </div>
-        <!-- Photo and packshot slots retain the proportions of the supplied artwork. -->
-        <div class="hero-visual" aria-hidden="true">
-          <div class="media-placeholder hero-photo" data-asset="hero-photo"></div>
-          <div class="media-placeholder packshot-placeholder hero-packshot" data-asset="hero-packshot"></div>
+        <div class="hero-visual">
+          <div class="media-frame hero-photo" data-asset="hero-photo"><img src="assets/img/Header_zdjęcie.webp" width="800" height="824" alt="" fetchpriority="high" decoding="async"><p class="hero-photo-caption">Produkt leczniczy wydawany bez przepisu lekarza</p></div>
+          <div class="media-frame packshot-frame hero-packshot" data-asset="hero-packshot"><img src="assets/img/Packshot_fast.webp" width="930" height="418" alt="" loading="lazy" decoding="async"></div>
         </div>
       </div>
     </section>
 
     <section class="product-intro" id="paramig-fast" aria-labelledby="fast-title">
       <div class="container intro-layout">
-        <div class="media-placeholder intro-photo" data-asset="fast-main-photo" aria-hidden="true"></div>
+        <div class="media-frame intro-photo"><video controls playsinline preload="none" poster="assets/img/Okładka_wideo.webp" width="1568" height="1000" aria-label="Spot Paramig Fast"><source src="assets/vid/Paramig_Fast.mp4" type="video/mp4"></video></div>
         <div class="intro-copy">
           <p class="eyebrow">W roli głównej...</p>
           <h2 class="gradient-text" id="fast-title">Paramig Fast!</h2>
-          <svg class="intro-line" viewBox="0 0 560 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 38H310L430 17H560"/><circle cx="430" cy="17" r="13.5"/></svg>
+          <div class="intro-line" aria-hidden="true"><svg viewBox="0 0 560 48" preserveAspectRatio="none"><path d="M0 38H350L470 17H560"/></svg></div>
           <p>Miej przy sobie Paramig Fast w wygodnej saszetce i zażyj bez popijania gdy pojawi się ból.</p>
           <div class="actions">
             <div class="buy-menu">
@@ -86,12 +84,30 @@
     <section class="benefits" aria-label="Zalety Paramig Fast">
       <div class="benefits-band">
         <div class="container benefit-grid">
-          <article class="benefit-card benefit-card-first" data-asset="benefit-tongue-photo">
-            <div class="benefit-copy"><h3>Rozpuszcza się już<br>na języku</h3><p>Cytrynowy smak i szybkość działania. Paramig Fast to produkt leczniczy wydawany bez przepisu lekarza.</p></div>
+          <article class="benefit-card">
+            <img src="assets/img/Card_01.webp" width="800" height="836" alt="" loading="lazy" decoding="async">
+            <div class="benefit-copy">
+              <h3><button class="benefit-toggle" type="button" aria-expanded="false" aria-controls="benefit-description-1">Rozpuszcza się już<br>na języku</button></h3>
+              <div class="benefit-description" id="benefit-description-1"><div><p>Cytrynowy smak i szybkość działania. Paramig Fast to produkt leczniczy wydawany bez przepisu lekarza.</p></div></div>
+            </div>
             <svg class="benefit-line" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34H278L367 17H400"/><circle cx="367" cy="17" r="10"/></svg>
           </article>
-          <article class="benefit-card" data-asset="benefit-sachet-photo"><div class="benefit-copy"><h3>Wygodna saszetka</h3></div></article>
-          <article class="benefit-card" data-asset="benefit-pain-photo"><div class="benefit-copy"><h3>Szybszy niż ból</h3></div></article>
+          <article class="benefit-card">
+            <img src="assets/img/Card_02.webp" width="800" height="836" alt="" loading="lazy" decoding="async">
+            <div class="benefit-copy">
+              <h3><button class="benefit-toggle" type="button" aria-expanded="false" aria-controls="benefit-description-2">Wygodna saszetka</button></h3>
+              <div class="benefit-description" id="benefit-description-2"><div><p>Mikrogranulki o smaku cytrynowym rozpuszczają się na języku, wchłaniają się szybko i całkowicie. Lek nie wymaga popijania.</p></div></div>
+            </div>
+            <svg class="benefit-line" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34H278L367 17H400"/><circle cx="367" cy="17" r="10"/></svg>
+          </article>
+          <article class="benefit-card">
+            <img src="assets/img/Card_03.webp" width="800" height="836" alt="" loading="lazy" decoding="async">
+            <div class="benefit-copy">
+              <h3><button class="benefit-toggle" type="button" aria-expanded="false" aria-controls="benefit-description-3">Szybszy niż ból</button></h3>
+              <div class="benefit-description" id="benefit-description-3"><div><p>Niewielką saszetkę zabierzesz ze sobą wszędzie. A Paramig Fast działa szybciej niż tabletki.*</p></div></div>
+            </div>
+            <svg class="benefit-line" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34H278L367 17H400"/><circle cx="367" cy="17" r="10"/></svg>
+          </article>
         </div>
       </div>
       <div class="container"><p class="footnote">*Claude Dubray, Philippe Maincent &amp; Jean Yves Milon (2021): From the pharmaceutical to the clinical: the case for effervescent paracetamol in pain management. A narrative review, Current Medical Research and Opinion, DOI: 10.1080/03007995.2021.1902297; Charakterystyka Produktu Leczniczego PARAMIG Fast 04.07.2025</p></div>
@@ -114,13 +130,18 @@
             <a class="btn btn-outline" href="assets/pdf/20231222_Paramig Fast Junior_ulotka.pdf" target="_blank" rel="noopener noreferrer">Zobacz ulotkę</a>
           </div>
           <div class="junior-callouts">
-            <div class="junior-callout"><p><strong>na ból i gorączkę</strong><br>od 4. roku życia</p><svg viewBox="0 0 450 48" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><path d="M0 15H280L335 35H430"/><circle cx="280" cy="15" r="13.5"/></svg></div>
-            <div class="junior-callout"><p><strong>rozpuszczalne granulki</strong><br>o cytrynowym smaku</p><svg viewBox="0 0 500 60" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><path d="M0 50H335L400 15H500"/><circle cx="400" cy="15" r="13.5"/></svg></div>
+            <div class="junior-callout"><p><strong>na ból i gorączkę</strong><br>od 4. roku życia</p><div class="junior-callout-line" aria-hidden="true"><svg viewBox="0 0 450 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 15H280L335 35H450"/></svg></div></div>
+            <div class="junior-callout"><p><strong>rozpuszczalne granulki</strong><br>o cytrynowym smaku</p><div class="junior-callout-line" aria-hidden="true"><svg viewBox="0 0 500 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50H335L400 15H500"/></svg></div></div>
           </div>
         </div>
-        <div class="junior-visual" aria-hidden="true">
-          <div class="media-placeholder junior-photo" data-asset="junior-photo"></div>
-          <div class="media-placeholder packshot-placeholder junior-packshot" data-asset="junior-packshot"></div>
+        <div class="junior-visual">
+          <div class="media-frame junior-photo" data-asset="junior-photo">
+            <img src="assets/img/Junior_zdjęcie.webp" width="1054" height="720" alt="" loading="lazy" decoding="async">
+            <div class="media-frame packshot-frame junior-packshot" data-asset="junior-packshot">
+              <img src="assets/img/Packshot_junior.webp" width="1714" height="740" alt="" loading="lazy" decoding="async">
+              <p class="junior-packshot-caption">Produkt leczniczy wydawany bez przepisu lekarza</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -129,22 +150,18 @@
       <div class="container">
         <div class="section-heading"><p class="eyebrow">Z Paramig Fast i Paramig Fast Junior</p><h2 class="gradient-text" id="everyday-title">saszetkę masz zawsze pod ręką!</h2></div>
         <div class="story-grid">
-          <figure class="story story-one"><div class="media-placeholder story-photo" data-asset="story-no-water" aria-hidden="true"></div><figcaption>Gdy nie masz pod ręką nic do popicia, lek rozpuszcza się już na języku.</figcaption></figure>
-          <figure class="story story-two"><div class="media-placeholder story-photo" data-asset="story-plans" aria-hidden="true"></div><figcaption>Ból może Cię zatrzymać przed ważnym wydarzeniem? Pamiętaj o saszetce.</figcaption></figure>
-          <div class="sachet-slot sachet-fast" data-asset="fast-sachets" aria-hidden="true"></div>
-          <div class="sachet-slot sachet-junior" data-asset="junior-sachets" aria-hidden="true"></div>
-          <figure class="story story-three"><div class="media-placeholder story-photo" data-asset="story-family" aria-hidden="true"></div><figcaption>Ciesz się chwilami z dzieckiem i miej Paramig Fast Junior zawsze pod ręką.</figcaption></figure>
-          <figure class="story story-four"><div class="media-placeholder story-photo" data-asset="story-bag" aria-hidden="true"></div><figcaption>Wygodna saszetka zmieści się do każdej torebki.</figcaption></figure>
+          <figure class="story story-one"><div class="media-frame story-photo" data-asset="story-no-water" aria-hidden="true"><img src="assets/img/Zdjęcie_1.webp" width="904" height="630" alt="" loading="lazy" decoding="async"></div><figcaption>Gdy nie masz pod ręką nic do popicia, lek rozpuszcza się już na języku.</figcaption></figure>
+          <figure class="story story-two"><div class="media-frame story-photo" data-asset="story-plans" aria-hidden="true"><img src="assets/img/Zdjęcie_2.webp" width="900" height="634" alt="" loading="lazy" decoding="async"><div class="sachet-slot sachet-fast" data-asset="fast-sachets" aria-hidden="true"><img src="assets/img/Saszetki_fast.png" width="631" height="516" alt="" loading="lazy" decoding="async"></div></div><figcaption>Ból może Cię zatrzymać przed ważnym wydarzeniem? Pamiętaj o saszetce.</figcaption></figure>
+          <figure class="story story-three"><div class="media-frame story-photo" data-asset="story-family" aria-hidden="true"><img src="assets/img/Zdjęcie_3.webp" width="904" height="638" alt="" loading="lazy" decoding="async"><div class="sachet-slot sachet-junior" data-asset="junior-sachets" aria-hidden="true"><img src="assets/img/Szaszetki_junior.png" width="697" height="634" alt="" loading="lazy" decoding="async"></div></div><figcaption>Ciesz się chwilami z dzieckiem i miej Paramig Fast Junior zawsze pod ręką.</figcaption></figure>
+          <figure class="story story-four"><div class="media-frame story-photo" data-asset="story-bag" aria-hidden="true"><img src="assets/img/Zdjęcie_4.webp" width="904" height="638" alt="" loading="lazy" decoding="async"></div><figcaption>Wygodna saszetka zmieści się do każdej torebki.</figcaption></figure>
         </div>
       </div>
     </section>
 
-    <!-- The supplied layout reserves this entire red area for Paramig Fast Extra. -->
-    <section class="extra" id="paramig-fast-extra" aria-label="Paramig Fast Extra"><div class="container extra-reserved" data-content-pending="extra"></div></section>
 
     <section class="closing-banner" aria-labelledby="closing-title">
       <div class="container closing-layout">
-        <div class="closing-photo" data-asset="closing-product-photo" aria-hidden="true"></div>
+        <div class="closing-photo" aria-hidden="true"></div>
         <div class="closing-copy"><h2 id="closing-title">Zawsze, gdy<br>DOPADA ból</h2><div class="buy-menu">
         <button class="btn buy-toggle" type="button" aria-expanded="false" aria-controls="buy-closing">Znajdź Paramig Fast<span class="chevron" aria-hidden="true"></span></button>
         <div class="buy-options" id="buy-closing" hidden>
@@ -278,7 +295,7 @@
 	</footer>
 
 
-  <aside class="medicine-notice" aria-label="Informacja o bezpiecznym stosowaniu leku"><div class="container"><p>To jest lek. Dla bezpieczeństwa stosuj go zgodnie z ulotką dołączoną do opakowania. Zwróć uwagę na przeciwwskazania. W przypadku wątpliwości skonsultuj się z lekarzem lub farmaceutą.</p></div></aside>
+  <aside class="medicine-notice info-bar" aria-label="Informacja o bezpiecznym stosowaniu leku"><div class="container"><p>To jest lek. Dla bezpieczeństwa stosuj go zgodnie z ulotką dołączoną do opakowania. Zwróć uwagę na przeciwwskazania. W przypadku wątpliwości skonsultuj się z lekarzem lub farmaceutą.</p></div></aside>
   <script src="assets/css-js/scripts.js" defer></script>
 </body>
 </html>

@@ -10,8 +10,18 @@ function closeBuyMenus(except) {
   });
 }
 buyToggles.forEach((button) => {
-  button.addEventListener('click', () => {
-    const open = button.getAttribute('aria-expanded') !== 'true';
+  const menu = button.closest('.buy-menu');
+  menu.addEventListener('pointerenter', (event) => {
+    if (event.pointerType !== 'mouse') return;
+    closeBuyMenus(button);
+    button.setAttribute('aria-expanded', 'true');
+    document.getElementById(button.getAttribute('aria-controls')).hidden = false;
+  });
+  menu.addEventListener('pointerleave', (event) => {
+    if (event.pointerType === 'mouse' && !menu.contains(document.activeElement)) closeBuyMenus();
+  });
+  button.addEventListener('click', (event) => {
+    const open = event.pointerType === 'mouse' || button.getAttribute('aria-expanded') !== 'true';
     closeBuyMenus(button);
     button.setAttribute('aria-expanded', String(open));
     document.getElementById(button.getAttribute('aria-controls')).hidden = !open;
@@ -113,3 +123,29 @@ function updateNoticeSpace() {
 }
 new ResizeObserver(updateNoticeSpace).observe(notice);
 updateNoticeSpace();
+
+// Reveal benefit descriptions on hover, keyboard focus, or a tap on the heading.
+document.querySelectorAll('.benefit-card').forEach((card) => {
+  const button = card.querySelector('.benefit-toggle');
+  const description = card.querySelector('.benefit-description');
+  function setOpen(open) {
+    card.classList.toggle('is-open', open);
+    button.setAttribute('aria-expanded', String(open));
+    description.setAttribute('aria-hidden', String(!open));
+  }
+  setOpen(false);
+  card.addEventListener('pointerenter', (event) => {
+    if (event.pointerType === 'mouse') setOpen(true);
+  });
+  card.addEventListener('pointerleave', (event) => {
+    if (event.pointerType === 'mouse' && !button.matches(':focus-visible')) setOpen(false);
+  });
+  button.addEventListener('focus', () => {
+    if (button.matches(':focus-visible')) setOpen(true);
+  });
+  button.addEventListener('blur', () => setOpen(false));
+  button.addEventListener('click', () => setOpen(!card.classList.contains('is-open')));
+  button.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') setOpen(false);
+  });
+});
